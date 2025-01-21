@@ -1,30 +1,3 @@
-// import FullContentPage from './Components/FullContentPage'
-// import Header from './Components/Header'
-// import HomeSearch from './Components/HomeSearch'
-// import LatestBlog from './Components/LatestBlog'
-// import './index.css'
-// import ReactDOM from 'react-dom';
-// import { BrowserRouter } from 'react-router-dom';
-
-// function App() {
-
-//   return (
-//     <>
-//     <div>
-//     <BrowserRouter>
-//      <Header/>
-//      <HomeSearch/>
-//      <LatestBlog/>
-//      <FullContentPage/>
-//      </BrowserRouter>
-//      </div>
-//     </>
-//   )
-// }
-
-// export default App
-
-
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';

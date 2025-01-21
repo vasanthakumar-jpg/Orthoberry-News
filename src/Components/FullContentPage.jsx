@@ -19,7 +19,6 @@ export default function FullContentPage() {
     <div className="mx-6 md:mx-[50px] lg:mx-[100px] xl:mx-[200px] my-10">
       <h1 className='text-[28px] md:text-[32px] lg:text-[40px] font-medium text-[#1B1B1F]'>Uncontrolled diabetes increases risk of hearing loss; doctors call for more awareness, screening Premium</h1>
       <div className='flex justify-between flex-col md:flex-row my-4 md:m-4 gap-2'>
-        
              <div>
                  <p className='text-[#757575] text-[16px] md:text-[24px] '>Posted at 22-11-2024</p>
              </div>

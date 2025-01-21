@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
-   
    <div className='flex justify-between m-4 md:my-[15px] md:mx-[50px]'>
       <div>
         <Link to="/">
