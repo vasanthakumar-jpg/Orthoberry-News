@@ -3,12 +3,12 @@ import { CgWebsite } from 'react-icons/cg';
 import { useParams } from 'react-router-dom';
 
 const blogContent = {
-  smiling: { image: '/smiling.png', title: 'Smiling Blog Content' },
-  young: { image: '/young.png', title: 'Young Blog Content' },
-  beach: { image: '/beach.png', title: 'Beach Blog Content' },
-  yoga: { image: '/yoga.png', title: 'Yoga Blog Content' },
-  cycle: { image: '/cycle.png', title: 'Cycle Blog Content' },
-  ear: { image: '/ear1big.png', title: 'Ear Blog Content' },
+  smiling: { image: '/smiling.png', title: 'Smiling Blog Content'},
+  young: { image: '/young.png', title: 'Young Blog Content'},
+  beach: { image: '/beach.png', title: 'Beach Blog Content'},
+  yoga: { image: '/yoga.png', title: 'Yoga Blog Content'},
+  cycle: { image: '/cycle.png', title: 'Cycle Blog Content'},
+  ear: { image: '/ear1big.png', title: 'Ear Blog Content'},
 };
 
 export default function FullContentPage() {
@@ -17,7 +17,6 @@ export default function FullContentPage() {
 
   return (
     <div className="mx-6 md:mx-[50px] lg:mx-[100px] xl:mx-[200px] my-10">
-      {/* <h1 className="text-[32px] font-medium text-[#1B1B1F]">{content?.title}</h1> */}
       <h1 className='text-[28px] md:text-[32px] lg:text-[40px] font-medium text-[#1B1B1F]'>Uncontrolled diabetes increases risk of hearing loss; doctors call for more awareness, screening Premium</h1>
       <div className='flex justify-between flex-col md:flex-row my-4 md:m-4 gap-2'>
         
