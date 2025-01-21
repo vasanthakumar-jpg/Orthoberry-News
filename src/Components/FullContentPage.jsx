@@ -3,12 +3,12 @@ import { CgWebsite } from 'react-icons/cg';
 import { useParams } from 'react-router-dom';
 
 const blogContent = {
-  smiling: { image: '/smiling.png', title: 'Smiling Blog Content'},
-  young: { image: '/young.png', title: 'Young Blog Content'},
-  beach: { image: '/beach.png', title: 'Beach Blog Content'},
-  yoga: { image: '/yoga.png', title: 'Yoga Blog Content'},
-  cycle: { image: '/cycle.png', title: 'Cycle Blog Content'},
-  ear: { image: '/ear1big.png', title: 'Ear Blog Content'},
+  smiling: { image: '/images/smiling.png', title: 'Smiling Blog Content'},
+  young: { image: '/images/young.png', title: 'Young Blog Content'},
+  beach: { image: '/images/beach.png', title: 'Beach Blog Content'},
+  yoga: { image: '/images/yoga.png', title: 'Yoga Blog Content'},
+  cycle: { image: '/images/cycle.png', title: 'Cycle Blog Content'},
+  ear: { image: '/images/ear1big.png', title: 'Ear Blog Content'},
 };
 
 export default function FullContentPage() {

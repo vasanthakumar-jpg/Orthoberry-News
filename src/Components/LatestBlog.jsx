@@ -1,72 +1,3 @@
-// import React from 'react';
-// import { IoEllipse, IoFilterOutline } from 'react-icons/io5';
-// import { TfiMenuAlt } from 'react-icons/tfi';
-// import { HashLink } from 'react-router-hash-link';
-
-// export default function LatestBlog() {
-//   const blogs = [
-//     { id: 'smiling', src: '/smiling.png', alt: 'Smiling' },
-//     { id: 'young', src: '/young.png', alt: 'Young' },
-//     { id: 'beach', src: '/beach.png', alt: 'Beach' },
-//     { id: 'yoga', src: '/yoga.png', alt: 'Yoga' },
-//     { id: 'cycle', src: '/cycle.png', alt: 'Cycle' },
-//     { id: 'ear', src: '/ear.png', alt: 'Ear' },
-//   ];
-
-//   return (
-//     <div>
-//       <div className="flex justify-between my-6 mx-6">
-//         <h1 className="text-2xl md:text-4xl font-medium">Latest Blogs</h1>
-//         <div className="flex gap-2 text-[24px] md:text-[32px]">
-//           <IoFilterOutline />
-//           <TfiMenuAlt />
-//         </div>
-//       </div>
-//       <div className="mx-4 flex flex-col">
-//         {blogs.map((blog) => (
-//           <Blog key={blog.id} to={`/content/${blog.id}`} imageSrc={blog.src} alt={blog.alt} />
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
-
-// const Blog = ({ to, imageSrc, alt }) => {
-//   return (
-//     <div className="flex flex-col lg:flex-row gap-4 my-2">
-//       <div className="cursor-pointer">
-//         <HashLink smooth to={to}>
-//           <img
-//             src={imageSrc}
-//             alt={alt}
-//             className="h-full w-[400px] transform transition-transform duration-300 hover:scale-95"
-//           />
-//         </HashLink>
-//       </div>
-//       <div className="flex flex-col md:flex-col-reverse">
-//         <div className="flex gap-1">
-//           <button className="flex py-2 px-3 md:p-3 bg-[#EEEFFF] rounded-[15px] text-base">
-//             <IoEllipse className="text-[6px] my-2.5 mr-1 text-[#0512FF]" /> Health
-//           </button>
-//           <button className="flex py-2 px-3 md:p-3 bg-[#FFEEEE] rounded-[15px] text-base">
-//             <IoEllipse className="text-[6px] my-2.5 mr-1 text-[#FF0509]" /> Diabetes
-//           </button>
-//         </div>
-//         <div>
-//           <h1 className="font-medium text-lg md:text-2xl">
-//             Uncontrolled diabetes increases risk of hearing loss; doctors call for more awareness, screening Premium
-//           </h1>
-//           <p className="text-[#7E7E7E] text-sm my-3">
-//             Uncontrolled diabetes increases the risk of hearing loss due to the damage high blood sugar causes to blood
-//             vessels and nerves essential for hearing. Despite this, hearing health is rarely prioritised in...
-//           </p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-
 import React, { useState } from 'react';
 import { IoEllipse, IoFilterOutline } from 'react-icons/io5';
 import { TfiMenuAlt } from 'react-icons/tfi';
@@ -76,12 +7,12 @@ export default function LatestBlog() {
   const [isOverlayVisible, setIsOverlayVisible] = useState(false); // State to control overlay visibility
 
   const blogs = [
-    { id: 'smiling', src: '/smiling.png', alt: 'Smiling' },
-    { id: 'young', src: '/young.png', alt: 'Young' },
-    { id: 'beach', src: '/beach.png', alt: 'Beach' },
-    { id: 'yoga', src: '/yoga.png', alt: 'Yoga' },
-    { id: 'cycle', src: '/cycle.png', alt: 'Cycle' },
-    { id: 'ear', src: '/ear.png', alt: 'Ear' },
+    { id: 'smiling', src: '/images/smiling.png', alt: 'Smiling' },
+    { id: 'young', src: '/images/young.png', alt: 'Young' },
+    { id: 'beach', src: '/images/beach.png', alt: 'Beach' },
+    { id: 'yoga', src: '/images/yoga.png', alt: 'Yoga' },
+    { id: 'cycle', src: '/images/cycle.png', alt: 'Cycle' },
+    { id: 'ear', src: '/images/ear.png', alt: 'Ear' },
   ];
 
   const handleOverlayToggle = () => {

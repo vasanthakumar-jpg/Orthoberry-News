@@ -7,7 +7,7 @@ export default function HomeSearch() {
 
 {/* Left Side Image  */}
       <div>
-      <img src="/LeftImage.png" alt="Description" />
+      <img src="/images/LeftImage.png" alt="Description" />
 
       </div>
 {/* Center Content */}
@@ -43,7 +43,7 @@ export default function HomeSearch() {
 
 {/* Right Side Image  */}
       <div>
-      <img src="/RightImage.png" alt="Description" className='2xs:float-end ' />
+      <img src="/images/RightImage.png" alt="Description" className='2xs:float-end ' />
       
       </div>
     </div>

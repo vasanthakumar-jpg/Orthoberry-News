@@ -7,7 +7,7 @@ export default function Header() {
    <div className='flex justify-between m-4 md:my-[15px] md:mx-[50px]'>
       <div>
         <Link to="/">
-        <img src="/Orthoberry_logo.png" className='h-9' alt="" />
+        <img src="/images/Orthoberry_logo.png" className='h-9' alt="" />
         </Link>
       </div>
       <div>
