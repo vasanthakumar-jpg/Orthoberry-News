@@ -4,25 +4,15 @@ import { TfiMenuAlt } from 'react-icons/tfi';
 import { HashLink } from 'react-router-hash-link';
 
 export default function LatestBlog() {
-  
   const [isOverlayVisible, setIsOverlayVisible] = useState(false); // State to control overlay visibility
 
-  // const blogs = [
-  //   { id: 'smiling', src: '/images/smiling.png', alt: 'Smiling' },
-  //   { id: 'young', src: '/images/young.png', alt: 'Young' },
-  //   { id: 'beach', src: '/images/beach.png', alt: 'Beach' },
-  //   { id: 'yoga', src: '/images/yoga.png', alt: 'Yoga' },
-  //   { id: 'cycle', src: '/images/cycle.png', alt: 'Cycle' },
-  //   { id: 'ear', src: '/images/ear.png', alt: 'Ear' },
-  // ];
-
   const blogs = [
-    { id: 'smiling', src: `${import.meta.env.VITE_IMAGE_PATH}smiling.png`, alt: 'Smiling' },
-    { id: 'young', src: `${import.meta.env.VITE_IMAGE_PATH}young.png`, alt: 'Young' },
-    { id: 'beach', src: `${import.meta.env.VITE_IMAGE_PATH}beach.png`, alt: 'Beach' },
-    { id: 'yoga', src: `${import.meta.env.VITE_IMAGE_PATH}yoga.png`, alt: 'Yoga' },
-    { id: 'cycle', src: `${import.meta.env.VITE_IMAGE_PATH}cycle.png`, alt: 'Cycle' },
-    { id: 'ear', src: `${import.meta.env.VITE_IMAGE_PATH}ear.png`, alt: 'Ear' },
+    { id: 'smiling', src: '/images/smiling.png', alt: 'Smiling' },
+    { id: 'young', src: '/images/young.png', alt: 'Young' },
+    { id: 'beach', src: '/images/beach.png', alt: 'Beach' },
+    { id: 'yoga', src: '/images/yoga.png', alt: 'Yoga' },
+    { id: 'cycle', src: '/images/cycle.png', alt: 'Cycle' },
+    { id: 'ear', src: '/images/ear.png', alt: 'Ear' },
   ];
 
   const handleOverlayToggle = () => {
