@@ -11,6 +11,8 @@ const blogContent = {
   ear: { image: '/images/ear1big.png', title: 'Ear Blog Content'},
 };
 
+const imagePath = import.meta.env.VITE_IMAGE_PATH;
+
 export default function FullContentPage() {
   const { id } = useParams();
   const content = blogContent[id];
