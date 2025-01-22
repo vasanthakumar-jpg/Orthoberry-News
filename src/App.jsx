@@ -1,10 +1,10 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './Components/Header';
-import HomeSearch from './Components/HomeSearch';
-import LatestBlog from './Components/LatestBlog';
-import FullContentPage from './Components/FullContentPage';
-import './index.css';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./Components/Header";
+import HomeSearch from "./Components/HomeSearch";
+import LatestBlog from "./Components/LatestBlog";
+import FullContentPage from "./Components/FullContentPage";
+import "./index.css";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Routes>
         <Route
-          path="/"
+          path="/Orthoberry-News/"
           element={
             <>
               <HomeSearch />
@@ -20,7 +20,10 @@ function App() {
             </>
           }
         />
-        <Route path="/content/:id" element={<FullContentPage />} />
+        <Route
+          path="/Orthoberry-News/content/:id"
+          element={<FullContentPage />}
+        />
       </Routes>
     </BrowserRouter>
   );
