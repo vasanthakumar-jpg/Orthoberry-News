@@ -54,13 +54,14 @@
 
 import React from 'react';
 import { FaSearch } from 'react-icons/fa';
+import left from "/images/LeftImage.png";
 
 export default function HomeSearch() {
   return (
     <div className="flex justify-between flex-col lg:flex-row my-[50px] gap-[15px]">
       {/* Left Side Image */}
       <div>
-        <img src="/images/LeftImage.png" alt="Left Side Description" className="w-full" />
+        <img src={left} alt="Left Side Description" className="w-full" />
       </div>
 
       {/* Center Content */}
